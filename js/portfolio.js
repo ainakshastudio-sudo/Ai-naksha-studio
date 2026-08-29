@@ -1,8 +1,20 @@
-document.addEventListener('DOMContentLoaded',()=>{
- const filters=[...document.querySelectorAll('.filter')], projects=[...document.querySelectorAll('.masonry .project')];
- filters.forEach(f=>f.addEventListener('click',()=>{filters.forEach(x=>x.classList.remove('active'));f.classList.add('active');const cat=f.dataset.filter;projects.forEach(p=>p.classList.toggle('hide',cat!=='all'&&p.dataset.category!==cat));}));
- const modal=document.querySelector('.modal'); if(!modal)return;
- const mImg=modal.querySelector('img'),mTitle=modal.querySelector('.modal-title'),mCat=modal.querySelector('.modal-cat'),mDesc=modal.querySelector('.modal-desc');
- projects.forEach(p=>p.addEventListener('click',()=>{mImg.src=p.querySelector('img').src;mTitle.textContent=p.dataset.title;mCat.textContent=p.dataset.category.toUpperCase();mDesc.textContent=p.dataset.desc;modal.classList.add('open');document.body.style.overflow='hidden'}));
- const close=()=>{modal.classList.remove('open');document.body.style.overflow=''};modal.querySelector('.close').addEventListener('click',close);modal.addEventListener('click',e=>{if(e.target===modal)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
-});
+
+const filterButtons=document.querySelectorAll('.filter button');
+const works=document.querySelectorAll('.work');
+filterButtons.forEach(btn=>btn.addEventListener('click',()=>{
+  filterButtons.forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+  const f=btn.dataset.filter;
+  works.forEach(w=>w.style.display=(f==='all'||w.dataset.category===f)?'block':'none');
+}));
+const modal=document.querySelector('.modal');
+const modalImg=document.querySelector('.modal-img');
+const modalTitle=document.querySelector('.modal-title');
+const modalCat=document.querySelector('.modal-cat');
+const modalDesc=document.querySelector('.modal-desc');
+works.forEach(w=>w.addEventListener('click',()=>{
+  if(!modal)return;
+  modalImg.src=w.dataset.image; modalTitle.textContent=w.dataset.title; modalCat.textContent=w.dataset.category;
+  modalDesc.textContent=w.dataset.description; modal.classList.add('open');
+}));
+document.querySelector('.modal-close')?.addEventListener('click',()=>modal.classList.remove('open'));
+modal?.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});
