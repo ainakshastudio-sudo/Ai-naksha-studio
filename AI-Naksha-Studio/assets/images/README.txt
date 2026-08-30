@@ -1,0 +1,1 @@
+Replace the sample Unsplash URLs in the HTML files with your own project images. For local images, put them in this folder and use paths like assets/images/projects/villa-01.jpg.

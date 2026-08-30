@@ -1,0 +1,1 @@
+Replace the text-based AI mark in the header with your official supplied logo when ready. Do not redesign the logo. If your logo file is logo.png, put it in assets/logo.png and update the header if you want the image displayed.

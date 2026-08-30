@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ainakshastudio-sudo.github.io/Ai-naksha-studio/sitemap.xml

@@ -1,0 +1,1 @@
+Replace this file with your MP4 video named studio-showreel.mp4. Upload it to assets/videos/studio-showreel.mp4 and it will appear in the Home page video section.
