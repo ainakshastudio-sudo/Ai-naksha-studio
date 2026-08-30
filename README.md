@@ -57,3 +57,15 @@ The visible brand name throughout this version is:
 **AI NAKSHA STUDIO AND BUILDERS**
 
 Replace the text-based AI mark with your official logo when you upload it. Keep the original logo proportions and appearance.
+
+## SEO additions
+- Bikaner locality landing pages in `areas/`
+- `sitemap.xml` and `robots.txt`
+- Canonical URLs, Open Graph metadata and local business schema
+- Internal links to the Areas section
+
+
+
+### Added Bikaner SEO Areas
+- Vallabh Garden
+- Jaipur Road
