@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/portfolio.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/order.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/areas.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/jnv-colony.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/shivbari.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/gharsisar.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/kote-gate.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/gangashahar.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/rani-bazar.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/pawan-puri.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/murlidhar-vyas-nagar.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/sardar-patel-marg.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/bikaner-city.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/vallabh-garden.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/jaipur-road.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/services.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/portfolio.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/order.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/areas.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/jnv-colony.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/vallabh-garden.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ainakshastudio-sudo.github.io/Ai-naksha-studio/areas/jaipur-road.html</loc>
+  </url>
+
 </urlset>
